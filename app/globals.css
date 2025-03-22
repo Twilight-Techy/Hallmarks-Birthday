@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 192, 192, 192;
+  --background-end-rgb: 169, 169, 169;
+  --accent-rgb: 220, 220, 220;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(135deg, 
+    rgb(var(--background-start-rgb)), 
+    rgb(var(--accent-rgb)), 
+    rgb(var(--background-end-rgb)));
+  overflow-x: hidden;
+  cursor: none;
+  min-height: 100vh;
+}
+
+.font-cursive {
+  font-family: "Dancing Script", cursive;
+}
+
+.font-serif {
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+.glitter-cursor,
+.glitter-trail {
+  pointer-events: none;
+  will-change: transform;
+}
+
