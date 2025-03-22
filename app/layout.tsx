@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] })
 const dancingScript = Dancing_Script({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Bethy's Birthday",
-  description: "A special birthday celebration for Bethy",
+  title: "Hallmark's Birthday",
+  description: "A special birthday celebration for Hallmark",
   // viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
 }
 
